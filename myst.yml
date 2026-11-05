@@ -5,9 +5,9 @@ project:
   subtitle: A dashboard template for reproducible preprints
   jupyter:
     binder:
-      url: https://terrarium.evidencepub.io
+      url: https://live.evidencepub.io
       ref: main
-      repo: moranebienvenu/stroke_article
+      repo: roboneurolibre/stroke_article
   authors:
     - name: Morane Bienvenu
       affiliations: polymtl
@@ -71,8 +71,8 @@ project:
       country: Canada
       postal_code: H2V 2S9
     - id: CRIUGM
-      institution: Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal 
-      ror:  https://ror.org/031z68d90
+      institution: Centre de Recherche de l'Institut Universitaire de Gériatrie de Montréal
+      ror: https://ror.org/031z68d90
       isni: 0000 0000 9199 9374
       address: 4545 Chemin Queen-Mary
       city: Montreal
@@ -94,9 +94,9 @@ project:
       address: Av. Prof. Egas Moniz
       city: Lisbon
       country: Portugal
-      postal_code: 1649-035 
+      postal_code: 1649-035
     - id: GIF
-      institution: Groupe d’Imagerie Neurofonctionnelle, Institut des Maladies Neurodégénératives-UMR 5293, CNRS, CEA, University of Bordeaux, 
+      institution: Groupe d’Imagerie Neurofonctionnelle, Institut des Maladies Neurodégénératives-UMR 5293, CNRS, CEA, University of Bordeaux,
       ror: https://ror.org/001695n52
       isni: 0000 0004 6102 8699
       address: 146 Rue Léo Saignat
@@ -105,17 +105,17 @@ project:
       postal_code: 33000
   keywords:
     - mystmd
-    - next-gen preprints 
-    - interactive 
-    - neuroscience 
+    - next-gen preprints
+    - interactive
+    - neuroscience
     - stroke
-  github: https://github.com/moranebienvenu/stroke_article 
+  github: https://github.com/roboneurolibre/stroke_article
   banner: featured.jpg
-  venue: Neurolibre #Production will override this.
+  venue: NeuroLibre #Production will override this.
   subject: Living Preprint # Production will override this.
   numbering:
     headings: true
-  doi: 10.55458/neurolibre.xxxxx # Production will override this.
+  doi: 10.55458/neurolibre.00048 # Production will override this.
   open_access: true
   license:
     content: CC-BY-4.0
@@ -124,7 +124,7 @@ project:
     MyST: Markedly Structured Markdown
   bibliography:
     - paper.bib
-  toc: 
+  toc:
     - file: paper.md
     - file: content/figure_2.ipynb
     - file: content/figure_3.ipynb
@@ -135,5 +135,14 @@ project:
     - content/figure_3.ipynb
     - content/figure_4.ipynb
     - content/figure_5.ipynb
+  copyright: NeuroLibre
 site:
   template: article-theme
+  options:
+    favicon: favicon.ico
+    twitter: neurolibre
+    logo: logo.png
+    logo_text: NeuroLibre
+  actions:
+    - title: 🏠 Home
+      url: https://doi.org/10.55458/neurolibre.00048
